@@ -3,7 +3,7 @@ const Banner = [
       id: "1",
       img: "https://i.pinimg.com/1200x/fd/00/c1/fd00c1ed31da03fc1a238c9040f2e549.jpg",
       url: "https://example.com/one",
-      height: 400,
+      height: 500,
     },
     {
       id: "2",
@@ -39,7 +39,7 @@ const Banner = [
       id: "7",
       img: "https://i.pinimg.com/736x/c9/e0/c4/c9e0c48f71825e2617156c5759114b38.jpg",
       url: "https://example.com/three",
-      height: 700,
+      height: 650,
     },
     {
       id: "8",

@@ -6,7 +6,7 @@ import MainContent from "./components/layout/MainContetnt";
 function App() {
   return (
     <div className="min-h-screen flex flex-col bg-black relative">
-      <SplashCursor />
+      {/* <SplashCursor /> */}
       <Header />
       <MainContent />
       <Footer />

@@ -5,7 +5,6 @@ const MainContent: React.FC = () => {
   return (
     <main className="flex-grow px-5">
         <section className="my-8 relative">
-            <h2 className="text-center text-2xl font-bold mb-4">Ưu đãi nổi bật</h2>
             <div className="relative w-full">
                 <PromoBanner />
             </div>
