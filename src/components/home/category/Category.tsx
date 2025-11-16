@@ -1,15 +1,11 @@
+import CircularGallery from './CircularGallery'
 
-const Categogy: React.FC = () => {
+const Category: React.FC = () => {
     return (
-        <section className="mb-6">
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-                <div className="bg-white p-4 rounded shadow text-center">Điện thoại</div>
-                <div className="bg-white p-4 rounded shadow text-center">Laptop</div>
-                <div className="bg-white p-4 rounded shadow text-center">Tai nghe</div>
-                <div className="bg-white p-4 rounded shadow text-center">Phụ kiện</div>
-            </div>
-      </section>
+        <div style={{ height: '600px', position: 'relative' }}>
+            <CircularGallery bend={0} textColor="#ffffff" borderRadius={0.05} scrollEase={0.01}/>
+        </div>
     );
 }
 
-export default Categogy;
+export default Category;
