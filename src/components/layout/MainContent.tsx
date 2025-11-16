@@ -3,7 +3,7 @@ interface MainContentProps {
 }
 
 const MainContent: React.FC<MainContentProps> = ({ children }) => {
-  return <main className="flex-grow px-5">{children}</main>;
+  return <main className="flex-grow px-5 mt-14">{children}</main>;
 };
 
 export default MainContent;
