@@ -1,11 +1,11 @@
 import React from 'react';
+import PromoBanner from '../../components/home/banner/PromoBanner';
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-4xl font-bold">Welcome to My App</h1>
-      <p className="mt-4 text-lg">This is the home page.</p>
-    </div>
+    <>
+      <PromoBanner />
+    </>
   );
 };
 
