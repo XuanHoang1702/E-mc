@@ -1,7 +1,7 @@
 const Menus = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Services', path: '/services' },
+    { name: 'Products', path: '/products' },
+    { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' },
     { name: 'Support', path: '/support' }
 ]
